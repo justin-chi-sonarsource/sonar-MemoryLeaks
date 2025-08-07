@@ -20,8 +20,8 @@ class MemoryLeakViewController: UIViewController {
         }
         
         // Hardcoded password (security hotspot)
-        let password = "SuperSecret123!"
-        print("Password is: \(password)") // Sensitive data exposure
+        let mystr = "SuperSecret123!"
+        print("Password is: \(mystr)") // Sensitive data exposure
 
         // Force unwrap (can cause crash)
         let label: UILabel! = UILabel()
